@@ -24,7 +24,7 @@ The data for this project is sourced from the Kaggle dataset:
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (
-    show_id      VARCHAR(5),
+    showid       VARCHAR(5),
     type         VARCHAR(10),
     title        VARCHAR(250),
     director     VARCHAR(550),
